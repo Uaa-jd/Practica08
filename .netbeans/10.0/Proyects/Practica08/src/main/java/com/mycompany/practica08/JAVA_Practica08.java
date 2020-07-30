@@ -15,11 +15,17 @@ public class JAVA_Practica08 {
     {
         System.out.println("Práctica 08 de GIT");
         System.out.println("Suma(1,2) = " + suma(1,2));
+        System.out.println("Multiplicacion(1,2) = " + multi(1,2));
     }
     
     public static int suma(int a, int b)
     {
         return a+b;
     }
-            
+
+    public static int multi(int a, int b)
+    {
+        return a*b;
+    }
+
 }
